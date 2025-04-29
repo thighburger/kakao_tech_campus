@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>영화 검색 사이트</title>
+    <link rel="stylesheet" href="style.css"> <!-- CSS 따로 연결! -->
+</head>
+
+<body>
+    <!-- 오늘날짜 -->
+    <h1 id="date"></h1>
+
+    <!-- 🔎 검색창 -->
+    <div class="search-box">
+        <input type="text" id="search-input" placeholder="영화 제목을 검색하세요">
+        <button id="search-button">검색</button>
+    </div>
+
+    <!-- 🎬 영화 카드 리스트 -->
+    <div id="movie-list">
+        <!-- 영화 카드들이 여기에 추가될거야 -->
+    </div>
+
+    <!-- 모달창 -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span id="modal-close" class="close">&times;</span>
+            <div id="modal-body">
+                <!-- 상세 정보가 여기에 들어감 -->
+            </div>
+        </div>
+    </div>
+
+    <!-- ⚡ JavaScript 연결 -->
+    <script src="app.js"></script>
+
+
+</body>
+
+</html>
